@@ -1,0 +1,23 @@
+SETUP INSTRUCTIONS FOR LLMLangChainBot
+=====================================
+
+To use the LLMLangChainBot with real OpenAI API, you need to:
+
+1. Get an OpenAI API key:
+   - Go to https://platform.openai.com/api-keys
+   - Create a new API key
+   - Copy the key (it starts with "sk-")
+
+2. Create a .env file in this directory with:
+   OPENAI_API_KEY=your_actual_api_key_here
+
+3. Install required packages:
+   pip install openai python-dotenv
+
+4. Run the bot:
+   python llm_langchain_bot.py
+
+EXAMPLE .env file content:
+OPENAI_API_KEY=sk-your-actual-key-here-replace-this-text
+
+Note: Keep your API key secret and never commit it to version control! 

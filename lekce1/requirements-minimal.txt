@@ -1,0 +1,6 @@
+# Minimal requirements for Lesson 1
+# Only the essential packages needed to run the LangChain dummy chatbots
+
+langchain>=0.1.0
+langchain-core>=0.1.0
+typing-extensions>=4.5.0 

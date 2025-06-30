@@ -1,0 +1,35 @@
+# Lesson 1: LangChain Chatbot Requirements
+# Core LangChain dependencies for building chatbots with dummy responses
+
+# LangChain - Main framework for building LLM applications
+langchain>=0.1.0
+
+# LangChain Core - Essential components (chains, prompts, memory)
+langchain-core>=0.1.0
+
+# LangChain Community - Additional integrations and tools
+langchain-community>=0.0.20
+
+# Python standard library extensions (if needed)
+typing-extensions>=4.5.0
+
+# Optional: For future lessons with real APIs
+# Uncomment these when moving to lessons with real LLM integrations:
+
+# OpenAI integration (required for LLMLangChainBot)
+openai>=1.0.0
+# langchain-openai>=0.0.5  # Alternative LangChain OpenAI integration
+
+# Azure OpenAI integration  
+# azure-openai>=1.0.0
+
+# Environment variable management (required for LLMLangChainBot)
+python-dotenv>=1.0.0
+
+# HTTP requests (for API calls in future lessons)
+# requests>=2.28.0
+
+# Additional utilities that might be useful
+# pydantic>=2.0.0  # Data validation
+# numpy>=1.24.0    # Numerical operations
+# pandas>=2.0.0    # Data manipulation 
